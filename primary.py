@@ -37,7 +37,7 @@ class PrimaryService(replication_pb2_grpc.SequenceServicer):
                     print(
                         f"[Primary] Stored: {request.key} -> {request.value}")
                     # Send ACK and result to the client
-                    return replication_pb2.WriteResponse(ack="Write successful")
+                    return replication_pb2.WriteResponse(ack=f"Write successful: key={request.key}, value={request.value}")
                 else:
                     return replication_pb2.WriteResponse(ack="Write failed")
 
