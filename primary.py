@@ -33,7 +33,7 @@ class PrimaryService(replication_pb2_grpc.SequenceServicer):
                 if backup_response.ack == "ACK":
                     # If ACK is received, store data and log to file
                     primary_store[request.key] = request.value
-                    log_to_file("primary.txt", request.key, request.value)
+                    log_to_file("log/primary.txt", request.key, request.value)
                     print(
                         f"[Primary] Stored: {request.key} -> {request.value}")
                     # Send ACK and result to the client

@@ -26,7 +26,7 @@ def run():
             request = replication_pb2.WriteRequest(key=key, value=value)
             response = stub.Write(request)
 
-            log_to_file("client.txt", key, value)
+            log_to_file("log/client.txt", key, value)
             print(f"[Client] Response from Primary: {response.ack}")
 
 if __name__ == '__main__':

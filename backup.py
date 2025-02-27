@@ -19,7 +19,7 @@ class BackupService(replication_pb2_grpc.SequenceServicer):
     def Write(self, request, context):
         # Apply the write operation to the backup store
         backup_store[request.key] = request.value
-        log_to_file("backup.txt", request.key, request.value)
+        log_to_file("log/backup.txt", request.key, request.value)
         print(f"[Backup] Stored: {request.key} -> {request.value}")
         
         # Send ACK to the client
