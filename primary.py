@@ -12,7 +12,7 @@ import replication_pb2
 import replication_pb2_grpc
 from concurrent import futures
 
-dict_store = {}
+primary_store = {}
 
 
 def log_to_file(filename, key, value):
@@ -32,7 +32,7 @@ class PrimaryService(replication_pb2_grpc.SequenceServicer):
                 # Receive ACK from Backup
                 if backup_response.ack == "ACK":
                     # If ACK is received, store data and log to file
-                    dict_store[request.key] = request.value
+                    primary_store[request.key] = request.value
                     log_to_file("primary.txt", request.key, request.value)
                     print(
                         f"[Primary] Stored: {request.key} -> {request.value}")
