@@ -20,7 +20,7 @@ primary_store = {}
 
 
 def log_to_file(filename, key, value):
-    with open(filename, "log") as log_file:
+    with open(filename, "a") as log_file:
         log_file.write(f"{key} {value}\n")
 
 

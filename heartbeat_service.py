@@ -15,9 +15,8 @@ heartbeat_records = {
 
 
 def log_to_file(message):
-    with open("heartbeat.txt", "log") as log_file:
+    with open("log/heartbeat.txt", "a") as log_file:
         log_file.write(f"{message}\n")
-
 
 class ViewService(heartbeat_service_pb2_grpc.ViewServiceServicer):
     # Receive heartbeat from primary and backup

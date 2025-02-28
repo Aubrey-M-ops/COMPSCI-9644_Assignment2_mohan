@@ -1,0 +1,9 @@
+1 book
+2 laptop
+3 cloud
+4 computing
+5 apple
+6 hat
+7 cake
+8 milk
+9 pineapple

@@ -1,0 +1,40 @@
+Backup is alive. Latest heartbeat received at 2025-02-27 20:49:54
+Primary is alive. Latest heartbeat received at 2025-02-27 20:49:56
+Backup is alive. Latest heartbeat received at 2025-02-27 20:49:59
+Primary is alive. Latest heartbeat received at 2025-02-27 20:50:01
+Backup is alive. Latest heartbeat received at 2025-02-27 20:50:04
+Primary is alive. Latest heartbeat received at 2025-02-27 20:50:06
+Backup is alive. Latest heartbeat received at 2025-02-27 20:50:09
+Primary is alive. Latest heartbeat received at 2025-02-27 20:50:11
+Backup is alive. Latest heartbeat received at 2025-02-27 20:50:14
+Primary is alive. Latest heartbeat received at 2025-02-27 20:50:16
+Backup is alive. Latest heartbeat received at 2025-02-27 20:50:19
+Primary is alive. Latest heartbeat received at 2025-02-27 20:50:21
+Backup is alive. Latest heartbeat received at 2025-02-27 20:50:24
+Primary is alive. Latest heartbeat received at 2025-02-27 20:50:26
+Backup is alive. Latest heartbeat received at 2025-02-27 20:50:29
+Primary is alive. Latest heartbeat received at 2025-02-27 20:50:31
+Backup is alive. Latest heartbeat received at 2025-02-27 20:50:34
+Primary is alive. Latest heartbeat received at 2025-02-27 20:50:36
+Backup is alive. Latest heartbeat received at 2025-02-27 20:50:39
+Primary is alive. Latest heartbeat received at 2025-02-27 20:50:41
+Backup is alive. Latest heartbeat received at 2025-02-27 20:50:44
+Primary is alive. Latest heartbeat received at 2025-02-27 20:50:46
+Backup is alive. Latest heartbeat received at 2025-02-27 20:50:49
+Primary is alive. Latest heartbeat received at 2025-02-27 20:50:51
+Backup is alive. Latest heartbeat received at 2025-02-27 20:50:54
+Primary is alive. Latest heartbeat received at 2025-02-27 20:50:56
+Backup is alive. Latest heartbeat received at 2025-02-27 20:50:59
+Backup is alive. Latest heartbeat received at 2025-02-27 20:51:04
+Primary might be down. Latest heartbeat received at 2025-02-27 20:51:08
+Backup is alive. Latest heartbeat received at 2025-02-27 20:51:09
+Primary might be down. Latest heartbeat received at 2025-02-27 20:51:13
+Backup is alive. Latest heartbeat received at 2025-02-27 20:51:14
+Primary might be down. Latest heartbeat received at 2025-02-27 20:51:18
+Primary might be down. Latest heartbeat received at 2025-02-27 20:51:23
+Primary might be down. Latest heartbeat received at 2025-02-27 20:51:28
+Backup might be down. Latest heartbeat received at 2025-02-27 20:51:28
+Primary might be down. Latest heartbeat received at 2025-02-27 20:51:33
+Backup might be down. Latest heartbeat received at 2025-02-27 20:51:33
+Primary might be down. Latest heartbeat received at 2025-02-27 20:51:38
+Backup might be down. Latest heartbeat received at 2025-02-27 20:51:38
